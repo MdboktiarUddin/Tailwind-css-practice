@@ -5,19 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tailwind css details</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+    .font-bebas{
+        font-family: 'Bebas Neue', sans-serif;
+
+    }
+</style>
 </head>
 <body>
-    <div class="flex justify-between items-center">
-        <div >
-            <h1 class="bg-red-400">Hello I am big.</h1>
-            <h4 class="bg-blue-600">Hello i am also small big.</h4>
-            <p class="bg-green-400">Ok. I am smalll.</p>
-            <p class="p-2 bg-yellow-100 text-blue-500 text-6xl">It's <span class="text-orange-600"> good enough</span> nature.</p>
-            <button class>buy now</button>          
-     </div>
+    <header class="bg-amber-200">
+        <div class="flex justify-between items-center px-6">
+            <div class="space-y-2" >
+                <h1 class="bg-red-400">Hello I am big.</h1>
+                <h4 class="bg-blue-600">Hello i am also small big.</h4>
+                <p class="bg-green-400">Ok. I am smalll.</p>
+                <p class="p-2 bg-yellow-100 text-blue-500 text-6xl font-bebas">It's <span class="text-orange-600"> good enough</span> nature.</p>
+                <button class="bg-blue-400 px-3 py-2 rounded-xl">buy now</button>          
+         </div>
+         <div>
+            <img src="images/model.png">
+         </div>
+        </div>
+    </header>
+    <main>
      <div>
-        <img src="images/model.png">
+        <div class="cloth">
+  <img src="images/jacket-1.png"
+  <h4 class="text-3xl">Yellow Coat Jacket</h4>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  <p class="text-4xl">$200</p>
+        </div>
+        <div class="cloth">
+            <img src="images/jacket-2.png"
+            <h4 class="text-3xl">Ladies Jacket</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="text-4xl">$300</p>
+        </div>
+        <div class="cloth">
+            <img src="images/jacket-3.png"
+            <h4 class="text-3xl">Ladies Jacket</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="text-4xl">$400</p>
+        </div>
      </div>
-    </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
