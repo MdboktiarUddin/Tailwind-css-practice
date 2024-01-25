@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Rows</title>
+  <style>
+    /* Optional: Add some styling for better visualization */
+    
+    .image-rowone img{
+        width:580px;
+        height:300px;
+    }
+    .image-rowtwo img{
+        width:580px;
+        height:300px;
+    }
+    .image-rowthree img{
+      width:385px;
+      height:300px;
+    }
+
+@media  screen and (max-width:576px) {
+  .image-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+<div class="image-container">
+  <!-- First Row with 2 Images -->
+  <div class="image-rowone">
+    <img src="images/Rectangle 5.png" alt="Image 1" class="image">
+    <img src="images/Rectangle 8 (1).png" alt="Image 2" class="image">
+  </div>
+
+  <!-- Second Row with 3 Images -->
+  <div class="image-rowthree">
+    <img src="images/jacket-6.png" alt="Image 3" class="image">
+    <img src="images/Rectangle 7.png" alt="Image 4" class="image">
+    <img src="images/Rectangle 9.png" alt="Image 5" class="image">
+  </div>
+
+  <!-- Third Row with 2 Images -->
+  <div class="image-rowtwo">
+    <img src="images/Rectangle 10.png" alt="Image 6" class="image">
+    <img src="images/Rectangle 11.png" alt="Image 7" class="image">
+  </div>
+</div>
+
+</body>
+</html>
